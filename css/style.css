@@ -1,0 +1,21 @@
+body{
+    margin: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.figure{
+    height: 300px;
+    width: 600px;
+    margin: 30px auto;
+    padding: 50px;
+    background-color: #198754;
+    color:white;
+    text-align: center;
+    
+}
+.figure p{
+    text-align: center;
+    font-size: 20px;
+}
