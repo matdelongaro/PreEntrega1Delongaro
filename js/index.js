@@ -11,7 +11,7 @@ function costoTotalInicio(){
             alert("No ingresaste nombre de usuario");
         }
         else{
-            alert("Hola " + nombreUsuario + "," + "tienes el turno Nº" + i + ". Sólo se venden hasta 5 entradas por usuario.");
+            alert("Hola " + nombreUsuario + "," + "tienes el turno Nº" + i + " que corresponde a la Primer Preventa ($5000). Sólo se venden hasta 5 entradas por usuario.");
             let num = Number(prompt("Ingrese la cantidad de entradas que va a solicitar"));{
                 if(num>5){
                     alert("El usuario sólo puede comprar hasta 5 entradas")
@@ -42,7 +42,7 @@ function costoTotal(){
             alert("No ingresaste nombre de usuario");
         }
         else{
-            alert("Hola " + nombreUsuario + "," + "tienes el turno Nº" + i + ". Sólo se venden hasta 5 entradas por usuario.");
+            alert("Hola " + nombreUsuario + "," + "tienes el turno Nº" + i + " que corresponde a la Segunda Preventa ($7000). Sólo se venden hasta 5 entradas por usuario. ");
             let num = Number(prompt("Ingrese la cantidad de entradas que va a solicitar"));{
                 if(num>5){
                     alert("El usuario sólo puede comprar hasta 5 entradas")
