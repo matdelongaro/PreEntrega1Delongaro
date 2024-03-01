@@ -13,7 +13,7 @@ function costoTotalInicio(){
             alert("No ingresaste nombre de usuario");
         }
         else{
-            alert("Hola " + nombreUsuario + "," + "tienes el Nº de orden" + i + " Recuerda que sólo se venden hasta 2 entradas por usuario.");
+            alert("Hola " + nombreUsuario + "," + "tu orden es la Nº" + i + " Recuerda que sólo se venden hasta 2 entradas por usuario.");
             let num = Number(prompt("Ingrese la cantidad de entradas que va a solicitar"));{
                 if(num>2){
                     alert("El usuario sólo puede comprar hasta 2 entradas")
@@ -28,7 +28,7 @@ function costoTotalInicio(){
                         alert("Debes ingresar tu mail, allí te llegaran las entradas. Por razones de seguridad deberás comenzar nuevamente el proceso");
                     }
                     else{
-                        document.write('<div class="container"><div class="figure"><h1>Felicitaciones, tu compra se ha realizado con éxito.</h1><p>Recibiras un mail en donde se te solicitará el numero de orden y se te indicaran los pasos a seguir.</p></div></div>');
+                        document.write('<div class="container"><div class="figure"><h1>Felicitaciones, tu compra se ha realizado con éxito.</h1><p>Recibiras un mail en donde se te solicitará el numero de orden y se te indicaran los pasos a seguir.</p><a href="#">Pulsa aquí si no te llegó el correo.</a></div></div>');
                     }
                    
                     
