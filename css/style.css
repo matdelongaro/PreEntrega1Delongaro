@@ -13,20 +13,33 @@ body{
     background-color: #198754;
     color:white;
     text-align: center;
-    
+
 }
-.figure p{
+.figure2{
+    height: 300px;
+    width: 600px;
+    margin: 30px auto;
+    padding: 50px;
+    background-color: #dc3545;
+    color:white;
+    text-align: center;
+
+}
+
+
+
+p{
     text-align: center;
     font-size: 20px;
 }
-.figure a{
+.link{
     text-decoration: none;
     color: black;
     font-size: 13px;
-    font-weight: 600;
+    font-weight: bold;
 }
 
-.figure a:hover{
+.link:hover{
     color:  white ;
     transition: 0.5s;
 }
