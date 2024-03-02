@@ -15,6 +15,7 @@ function costoTotalInicio(){
             let num = Number(prompt("Ingrese la cantidad de entradas que va a solicitar"));{
                 if(num>2){
                     alert("El usuario sólo puede comprar hasta 2 entradas")
+                    document.write('<div class="container"><div class="figure2"><h1>Ha ocurrido un error. </h1><p>Vuelve a comenzar el proceso de compra.</p><a href="../index.html" class="link">Pulsa aquí para refrescar.</a></div></div>');
                 }
                 else if(num == ""){
                     alert("Ingrese la cantidad de entradas que va a solicitar")
@@ -23,7 +24,7 @@ function costoTotalInicio(){
                     alert("Has seleccionado la cantidad de " + num + " entradas. El total a pagar es de "  + num * valorEntrada + " pesos.");
                     let mail = prompt('Ingresa tu Email');
                     if(mail == "" ){
-                        alert("Debes ingresar tu mail, allí te llegaran las entradas. Por razones de seguridad deberás comenzar nuevamente el proceso");
+                        alert("Debes ingresar tu mail, pues es donde te llegaran las entradas. Por razones de seguridad deberás comenzar nuevamente el proceso");
                         document.write('<div class="container"><div class="figure2"><h1>Ha ocurrido un error. </h1><p>Vuelve a comenzar el proceso de compra.</p><a href="../index.html" class="link">Pulsa aquí para refrescar.</a></div></div>');
                     }
                     else{
